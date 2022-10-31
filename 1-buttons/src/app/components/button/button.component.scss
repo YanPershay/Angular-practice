@@ -1,0 +1,14 @@
+button {
+  all: unset;
+  padding: 0 24px;
+  border-radius: 4px;
+  color: rgb(23, 23, 23);
+  font-size: 16px;
+  line-height: 36px;
+  //background-color: #06f;
+  transition: all 0.15s ease;
+  cursor: pointer;
+  &:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  }
+}
